@@ -1,0 +1,19 @@
+{
+  "name": "track-cli-template",
+  "description": "CLI template for nodejs application",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --exit -R tap"
+  },
+  "keywords": [
+    "track",
+    "cli",
+    "node"
+  ],
+  "repository": "none",
+  "license": "Unlicense",
+  "dependencies": {
+    "axios": "1.7.2"
+  }
+}

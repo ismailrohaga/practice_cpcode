@@ -5,7 +5,7 @@
 var runningSum = function (nums) {
   const output = [];
   let currentValue = null;
-  nums.forEach(element => {
+  nums.forEach((element) => {
     if (currentValue != null) {
       output.push(element + currentValue);
       currentValue = element + currentValue;

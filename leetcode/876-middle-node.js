@@ -14,5 +14,4 @@ var middleNode = function (head) {
   return head.slice(Math.floor(6 / 2) - 1, head.length);
 };
 
-
 console.log(middleNode([1, 2, 3, 4, 5]));
